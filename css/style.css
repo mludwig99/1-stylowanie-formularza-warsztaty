@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(246, 242, 242);
+}
+
+form {
+    background-color: #213b50;
+    width: 50vw;
+    height: 94vh;
+    margin: 1vh 0 1vh 1vh;
+    padding: 10px;
+
+}
+
+label {
+    display: block;
+    margin: 8px 0 8px 0;
+
+}
+
+input {
+    background-color: #2b4a64;
+    font-size: 20px;
+    border: 0px;
+    padding: 2px;
+    width: 50%;
+}
+
+input:focus {
+    background-color: #4e708c;
+    outline: 1px solid #ffffff;
+    color: #ffffff;
+
+}
+
+select#city {
+    background-color: #2b4a64;
+    font-size: 14px;
+    width: 50%;
+    padding: 2px;
+    border: 0;
+
+}
+
+form p:nth-of-type(1) {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#male {
+    height: 14px;
+    width: 5%;
+    float: left;
+    filter: grayscale();
+
+
+}
+
+#male+label {
+    margin: 0;
+
+
+}
+
+#female {
+    height: 14px;
+    width: 5%;
+    float: left;
+    filter: grayscale();
+
+
+
+}
+
+#female+label {
+
+    margin: 0;
+}
+
+textarea {
+    background-color: #2b4a64;
+    width: 50%;
+    height: 10%;
+    border: none;
+}
+
+#agreement {
+    display: inline-block;
+    width: auto;
+    filter: grayscale(0.8);
+    margin: 3px ;
+    float: left;
+
+}
+label[for="agreement"]{
+    margin: 0;
+}
+input[type="submit"]{
+    background-color: #1ac056;
+    width: 20%;
+    height: 8%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #46e881;
+    
+}
